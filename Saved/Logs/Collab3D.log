@@ -3182,3 +3182,163 @@ ff32aae8326e8f50728d51e7f285851c67d55bef	refs/heads/master
 [2020.05.26-00.35.21:216][197]LogSourceControl: RunCommand(log):
 ff32aae8326e8f50728d51e7f285851c67d55bef Changed project to third person 3D platforming
 
+[2020.05.26-00.38.47:216][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.05.26-00.38.47:221][436]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.032
+[2020.05.26-00.38.47:221][436]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/gem_color] ([1] browsable assets)...
+[2020.05.26-00.38.47:221][436]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/gem_color]
+[2020.05.26-00.38.47:235][436]LogSavePackage: Moving '../../../../../../Users/Dustin/Documents/Unreal Projects/Collab3D/Saved/gem_color_Auto360F33B514DE8293533AD7AAA6937B6CA.tmp' to '../../../../../../Users/Dustin/Documents/Unreal Projects/Collab3D/Saved/Autosaves/Game/ThirdPersonBP/gem_color_Auto3.uasset'
+[2020.05.26-00.38.47:236][436]LogFileHelpers: Auto-saving content packages took 0.015
+[2020.05.26-00.39.30:984][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.05.26-00.39.36:396][941]LogSlate: Window 'Save Content' being destroyed
+[2020.05.26-00.39.36:404][941]SourceControl: Warning: Save All Assets before attempting to Sync!
+[2020.05.26-00.39.50:650][541]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.05.26-00.39.50:680][541]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.05.26-00.39.50:691][541]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2020.05.26-00.39.50:691][541]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap"'
+[2020.05.26-00.39.50:702][541]LogSourceControl: RunCommand(status):
+
+[2020.05.26-00.39.50:702][541]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, ...)
+[2020.05.26-00.39.50:702][541]LogSourceControl: Status(C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap) not found but exists => unchanged
+[2020.05.26-00.39.50:702][541]LogSourceControl: RunCommand: 'git ls-remote origin master "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap"'
+[2020.05.26-00.39.51:012][541]LogSourceControl: RunCommand(ls-remote):
+81fddfdc50d715fb5c274037308db3e77703b297	refs/heads/master
+
+[2020.05.26-00.39.51:012][541]LogSourceControl: RunCommand: 'git diff --name-only origin/master  HEAD "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap"'
+[2020.05.26-00.39.51:023][541]LogSourceControl: RunCommand(diff):
+
+[2020.05.26-00.39.51:023][541]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.05.26-00.39.51:023][541]LogSourceControl: RunCommand(log):
+81fddfdc50d715fb5c274037308db3e77703b297 Added back gem to new project and re-did lighting
+
+[2020.05.26-00.39.51:104][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.05.26-00.39.51:244][541]LogSavePackage: Moving '../../../../../../Users/Dustin/Documents/Unreal Projects/Collab3D/Saved/ThirdPersonExampleMapB955375243E450EAE46C95829108DC43.tmp' to '../../../../../../Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.05.26-00.39.51:266][541]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.05.26-00.39.51:293][541]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.05.26-00.39.51:304][541]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2020.05.26-00.39.51:304][541]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset"'
+[2020.05.26-00.39.51:315][541]LogSourceControl: Status(C:/Users/Dust
+[2020.05.26-00.39.51:315][541]LogSourceControl: n/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset) not found but exists => unchanged
+[2020.05.26-00.39.51:315][541]LogSourceControl: Status(C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset) not found but exists => unchanged
+[2020.05.26-00.39.51:315][541]LogSourceControl: RunCommand: 'git ls-remote origin master "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset"'
+[2020.05.26-00.39.51:581][541]LogSourceControl: RunCommand(ls-remote):
+81fddfdc50d715fb5c274037308db3e77703b297	refs/heads/master
+
+[2020.05.26-00.39.51:581][541]LogSourceControl: RunCommand: 'git diff --name-only origin/master  HEAD "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset"'
+[2020.05.26-00.39.51:592][541]LogSourceControl: RunCommand(diff):
+
+[2020.05.26-00.39.51:592][541]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.05.26-00.39.51:603][541]LogSourceControl: RunCommand(log):
+81fddfdc50d715fb5c274037308db3e77703b297 Added back gem to new project and re-did lighting
+
+[2020.05.26-00.39.51:692][541]LogSavePackage: Moving '../../../../../../Users/Dustin/Documents/Unreal Projects/Collab3D/Saved/ThirdPersonExampleMap_BuiltData5BE654C44ACA7413F456D58ADE316F62.tmp' to '../../../../../../Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.05.26-00.39.51:706][541]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.26-00.39.51:706][541]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.05.26-00.39.51:707][541]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.05.26-00.39.51:707][541]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.05.26-00.39.51:714][542]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.05.26-00.39.51:730][543]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2020.05.26-00.39.51:730][543]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps"'
+[2020.05.26-00.39.51:797][551]LogSourceControl: RunCommand(status):
+ M Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+ M Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+
+[2020.05.26-00.39.51:797][551]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap, ...)
+[2020.05.26-00.39.51:797][551]LogSourceControl: Status(C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap) = ' M Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' => 4
+[2020.05.26-00.39.51:797][551]LogSourceControl: Status(C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset) = ' M Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset' => 4
+[2020.05.26-00.39.51:797][551]LogSourceControl: RunCommand: 'git ls-remote origin master "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps"'
+[2020.05.26-00.39.52:065][583]LogSourceControl: RunCommand(ls-remote):
+81fddfdc50d715fb5c274037308db3e77703b297	refs/heads/master
+
+[2020.05.26-00.39.52:065][583]LogSourceControl: RunCommand: 'git diff --name-only origin/master  HEAD "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/Maps"'
+[2020.05.26-00.39.52:074][584]LogSourceControl: RunCommand(diff):
+
+[2020.05.26-00.39.52:074][584]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.05.26-00.39.52:089][586]LogSourceControl: RunCommand(log):
+81fddfdc50d715fb5c274037308db3e77703b297 Added back gem to new project and re-did lighting
+
+[2020.05.26-00.39.58:972][359]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.05.26-00.39.58:974][359]LogSourceControl: ExecuteSynchronousCommand(UpdateStatus)
+[2020.05.26-00.39.59:005][359]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.05.26-00.39.59:017][359]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2020.05.26-00.39.59:017][359]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP"'
+[2020.05.26-00.39.59:095][359]LogSourceControl: RunCommand(status):
+ M Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+ M Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+?? Content/ThirdPersonBP/gem_color.uasset
+
+[2020.05.26-00.39.59:095][359]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem.uasset, ...)
+[2020.05.26-00.39.59:095][359]LogSourceControl: Status(C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem.uasset) not found and does not exists => new/not controled
+[2020.05.26-00.39.59:095][359]LogSourceControl: Status(C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem_color.uasset) = '?? Content/ThirdPersonBP/gem_color.uasset' => 9
+[2020.05.26-00.39.59:095][359]LogSourceControl: RunCommand: 'git ls-remote origin master "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP"'
+[2020.05.26-00.39.59:360][359]LogSourceControl: RunCommand(ls-remote):
+81fddfdc50d715fb5c274037308db3e77703b297	refs/heads/master
+
+[2020.05.26-00.39.59:360][359]LogSourceControl: RunCommand: 'git diff --name-only origin/master  HEAD "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP"'
+[2020.05.26-00.39.59:371][359]LogSourceControl: RunCommand(diff):
+
+[2020.05.26-00.39.59:371][359]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.05.26-00.39.59:371][359]LogSourceControl: RunCommand(log):
+81fddfdc50d715fb5c274037308db3e77703b297 Added back gem to new project and re-did lighting
+
+[2020.05.26-00.39.59:402][359]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/gem" FILE="../../../../../../Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem.uasset" SILENT=true
+[2020.05.26-00.39.59:410][359]LogSavePackage: Moving '../../../../../../Users/Dustin/Documents/Unreal Projects/Collab3D/Saved/gem9351A0B94A15CDD7914328BA80B2C155.tmp' to '../../../../../../Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem.uasset'
+[2020.05.26-00.39.59:414][359]LogSourceControl: ExecuteSynchronousCommand(MarkForAdd)
+[2020.05.26-00.39.59:434][359]LogSourceControl: RunCommand: 'git add "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem.uasset"'
+[2020.05.26-00.39.59:457][359]LogSourceControl: RunCommand(add):
+
+[2020.05.26-00.39.59:457][359]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.05.26-00.39.59:469][359]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2020.05.26-00.39.59:469][359]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem.uasset"'
+[2020.05.26-00.39.59:480][359]LogSourceControl: RunCommand(status):
+A  Content/ThirdPersonBP/gem.uasset
+
+[2020.05.26-00.39.59:480][359]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem.uasset, ...)
+[2020.05.26-00.39.59:480][359]LogSourceControl: Status(C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem.uasset) = 'A  Content/ThirdPersonBP/gem.uasset' => 2
+[2020.05.26-00.39.59:480][359]LogSourceControl: RunCommand: 'git ls-remote origin master "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem.uasset"'
+[2020.05.26-00.39.59:736][359]LogSourceControl: RunCommand(ls-remote):
+81fddfdc50d715fb5c274037308db3e77703b297	refs/heads/master
+
+[2020.05.26-00.39.59:736][359]LogSourceControl: RunCommand: 'git diff --name-only origin/master  HEAD "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem.uasset"'
+[2020.05.26-00.39.59:747][359]LogSourceControl: RunCommand(diff):
+
+[2020.05.26-00.39.59:757][359]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/gem_color" FILE="../../../../../../Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem_color.uasset" SILENT=true
+[2020.05.26-00.39.59:766][359]LogSavePackage: Moving '../../../../../../Users/Dustin/Documents/Unreal Projects/Collab3D/Saved/gem_colorA285BA5A469B6D107285088E5875E924.tmp' to '../../../../../../Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem_color.uasset'
+[2020.05.26-00.39.59:780][359]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.26-00.39.59:780][359]LogContentValidation: Display: Validating StaticMesh /Game/ThirdPersonBP/gem.gem
+[2020.05.26-00.39.59:780][359]LogContentValidation: Display: Validating Material /Game/ThirdPersonBP/gem_color.gem_color
+[2020.05.26-00.39.59:781][359]LogSourceControl: IssueAsynchronousCommand(UpdateStatus)
+[2020.05.26-00.39.59:785][360]LogSourceControl: RunCommand: 'git symbolic-ref --short --quiet HEAD'
+[2020.05.26-00.39.59:796][360]LogSourceControl: RunCommand(symbolic-ref):
+master
+
+[2020.05.26-00.39.59:796][360]LogSourceControl: RunCommand: 'git status --porcelain --ignored "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP"'
+[2020.05.26-00.39.59:877][368]LogSourceControl: RunCommand(status):
+ M Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+ M Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+A  Content/ThirdPersonBP/gem.uasset
+?? Content/ThirdPersonBP/gem_color.uasset
+
+[2020.05.26-00.39.59:877][368]LogSourceControl: ParseStatusResults: 2) General case for one or more files (C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem.uasset, ...)
+[2020.05.26-00.39.59:877][368]LogSourceControl: Status(C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem.uasset) = 'A  Content/ThirdPersonBP/gem.uasset' => 2
+[2020.05.26-00.39.59:877][368]LogSourceControl: Status(C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP/gem_color.uasset) = '?? Content/ThirdPersonBP/gem_color.uasset' => 9
+[2020.05.26-00.39.59:877][368]LogSourceControl: RunCommand: 'git ls-remote origin master "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP"'
+[2020.05.26-00.40.00:129][397]LogSourceControl: RunCommand(ls-remote):
+81fddfdc50d715fb5c274037308db3e77703b297	refs/heads/master
+
+[2020.05.26-00.40.00:129][397]LogSourceControl: RunCommand: 'git diff --name-only origin/master  HEAD "C:/Users/Dustin/Documents/Unreal Projects/Collab3D/Content/ThirdPersonBP"'
+[2020.05.26-00.40.00:147][399]LogSourceControl: RunCommand(diff):
+
+[2020.05.26-00.40.00:147][399]LogSourceControl: RunCommand: 'git log -1 --format="%H %s"'
+[2020.05.26-00.40.00:163][401]LogSourceControl: RunCommand(log):
+81fddfdc50d715fb5c274037308db3e77703b297 Added back gem to new project and re-did lighting
+
